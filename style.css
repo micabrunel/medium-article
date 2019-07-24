@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&display=swap');
+
+body {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  color: #494949;
+  font-size: 18px;
+  text-align: justify;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 27px;
+  font-weight: 400;
+  color: #a0a0a0;
+}
+
+.header {
+  background-image: url("https://source.unsplash.com/random/");
+  background-size: cover;
+  padding: 120px 0;
+}
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.container-header {
+  width: 800px;
+  margin: auto;
+  color: white;
+}
+
+.description {
+  font-style: italic;
+  font-size: 30px;
+}
+
+.article {
+  padding: 15px 0;
+}
+
+.chapitre {
+  padding: 30px 0px 10px 0px;
+}
+
+.bouton-like {
+  background-color: lightgreen;
+  width: 300px
+  padding: 20px 80px ;
+}
+
